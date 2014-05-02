@@ -1,4 +1,3 @@
-Test
     <div id="content-container">
         <div id="content">
 	        	<?php
