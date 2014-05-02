@@ -4,13 +4,13 @@
 				    $fullname = $_POST['fullname'];
 				    $email = $_POST['email'];
 				    $message = $_POST['message'];
-				    $from = 'From: mbroomell.com'; 
-				    $to = 'mtbroomell@gmail.com'; 
+				    $from = 'From: sample.com'; 
+				    $to = 'sample@gmail.com'; 
 				    $subject = 'Contact Me';
 
 				    $body = "From: $fullname\n E-Mail: $email\n Message:\n $message";
 				?>
-			<form method="post" action="?page_id=15">
+			<form method="post" action="index.php">
         
 					<?php		 
 				        if (mail ($to, $subject, $body, $from)) { 
