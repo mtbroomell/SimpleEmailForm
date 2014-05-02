@@ -1,4 +1,4 @@
-    <div id="content-container">
+   <div id="content-container">
         <div id="content">
 	        	<?php
 				    $fullname = $_POST['fullname'];
